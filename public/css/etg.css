@@ -1,0 +1,526 @@
+/* --------------------------------------------------
+    BASIC COLORS
+-------------------------------------------------- */
+/* 009688 */
+/* --------------------------------------------------
+    PALETTE COLORS
+-------------------------------------------------- */
+/* 1565C0, 8bc34a, blue:2196F3 */
+/* --------------------------------------------------
+    BASIC COLORS
+-------------------------------------------------- */
+/* 009688 */
+/* --------------------------------------------------
+    PALETTE COLORS
+-------------------------------------------------- */
+/* 1565C0, 8bc34a, blue:2196F3 */
+i {
+  margin-right: 5px; }
+
+/* --------------------------------------------------
+    BASIC COLORS
+-------------------------------------------------- */
+/* 009688 */
+/* --------------------------------------------------
+    PALETTE COLORS
+-------------------------------------------------- */
+/* 1565C0, 8bc34a, blue:2196F3 */
+body {
+  background-color: #2196F3;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased; }
+
+.wrapper-content {
+  padding: 40px 20px 80px 20px; }
+
+.gray-bg {
+  background-color: #e7eaec; }
+
+.page-heading {
+  background-color: #272727;
+  padding: 10px; }
+
+.title-action {
+  padding-top: 0px; }
+
+.breadcrumb {
+  background-color: transparent;
+  color: #FFFFFF;
+  margin-top: 5px;
+  font-size: 0.875em; }
+
+.breadcrumb > li.active {
+  color: #c2c2c2;
+  font-weight: 400; }
+
+/* --------------------------------------------------
+    FOOTER
+-------------------------------------------------- */
+.footer {
+  background-color: #3a3a3a;
+  color: #FFFFFF;
+  padding: 20px 40px; }
+
+.footer > div > ul {
+  margin-bottom: 0; }
+
+.footer > div > ul > li > span, .footer > div > ul > li > a {
+  color: #FFFFFF; }
+
+@media (min-width: 768px) {
+  #page-wrapper {
+    margin: 0 0 0 280px; }
+  .navbar-static-side {
+    width: 280px; } }
+
+/* --------------------------------------------------
+    BASIC COLORS
+-------------------------------------------------- */
+/* 009688 */
+/* --------------------------------------------------
+    PALETTE COLORS
+-------------------------------------------------- */
+/* 1565C0, 8bc34a, blue:2196F3 */
+.white {
+  color: #FFFFFF !important; }
+
+.red {
+  color: #F44336 !important; }
+
+.orange {
+  color: #ff9800 !important; }
+
+.yellow {
+  color: #ffeb3b !important; }
+
+.green {
+  color: #8BC34A !important; }
+
+.blue {
+  color: #2196F3 !important; }
+
+.pace .pace-progress {
+  background: #e91e63; }
+
+/* --------------------------------------------------
+    BACKGROUND COLORS
+-------------------------------------------------- */
+.bg-red {
+  background-color: #F44336; }
+
+.bg-orange {
+  background-color: #ff9800; }
+
+.bg-blue {
+  background-color: #2196F3; }
+
+.bg-green {
+  background-color: #8BC34A; }
+
+/* --------------------------------------------------
+    PADDING
+-------------------------------------------------- */
+.padding-20 {
+  padding: 20px !important; }
+
+/* --------------------------------------------------
+    SHADOWS
+-------------------------------------------------- */
+.shadow {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); }
+
+/* --------------------------------------------------
+    ALERTS
+-------------------------------------------------- */
+.alert {
+  border: none;
+  border-radius: 0px;
+  margin: 0 -15px;
+  padding: 22px 50px 21px 25px; }
+
+.alert > i.fa {
+  color: #FFFFFF; }
+
+.alert-success {
+  color: #FFFFFF;
+  background-color: #8BC34A;
+  border-color: #7eb73d; }
+
+.alert-danger {
+  color: #FFFFFF;
+  background-color: #F44336;
+  border-color: #7eb73d; }
+
+.close-homepage-alert {
+  text-shadow: none;
+  opacity: 1;
+  top: 0;
+  outline: none; }
+
+/* --------------------------------------------------
+    BADGES
+-------------------------------------------------- */
+.badge-primary {
+  background-color: #2196F3; }
+
+.badge-success {
+  background-color: #8BC34A; }
+
+.badge-warning {
+  background-color: #ff9800; }
+
+.badge-danger {
+  background-color: #F44336; }
+
+/* --------------------------------------------------
+    LABELS
+-------------------------------------------------- */
+.label-primary {
+  background-color: #2196F3; }
+
+.label-success {
+  background-color: #8BC34A; }
+
+.label-warning {
+  background-color: #ff9800; }
+
+.label-danger {
+  background-color: #F44336; }
+
+/* --------------------------------------------------
+    TRANSFORM
+-------------------------------------------------- */
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #FFFFFF; }
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #FFFFFF;
+  opacity: 1; }
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #FFFFFF;
+  opacity: 1; }
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #FFFFFF; }
+
+/* --------------------------------------------------
+    BASIC COLORS
+-------------------------------------------------- */
+/* 009688 */
+/* --------------------------------------------------
+    PALETTE COLORS
+-------------------------------------------------- */
+/* 1565C0, 8bc34a, blue:2196F3 */
+.panel-warning > .panel-heading {
+  background-color: #ff9800;
+  border-color: #f29000;
+  color: #FFFFFF;
+  font-size: 0.875em;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.panel-body > p {
+  margin-bottom: 0; }
+
+/* --------------------------------------------------
+    BASIC COLORS
+-------------------------------------------------- */
+/* 009688 */
+/* --------------------------------------------------
+    PALETTE COLORS
+-------------------------------------------------- */
+/* 1565C0, 8bc34a, blue:2196F3 */
+.tabs-container .nav-tabs {
+  background-color: #e0e0e0;
+  border-bottom: none; }
+
+.tabs-container .nav-tabs > li {
+  margin-bottom: 0; }
+
+.tabs-container .nav > li.active {
+  border-left: 0; }
+
+.tabs-container .nav-tabs > li > a {
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  color: #6d6d6d;
+  font-size: 0.875em;
+  padding: 15px 20px;
+  margin: 0; }
+
+.tabs-container .nav-tabs > li > a,
+.tabs-container .nav-tabs > li > a:active,
+.tabs-container .nav-tabs > li > a:hover,
+.tabs-container .nav-tabs > li > a:focus {
+  border-bottom: solid 5px #bababa; }
+
+.tabs-container .nav-tabs > li > a:active,
+.tabs-container .nav-tabs > li > a:hover {
+  border-bottom: solid 5px #0c7cd5; }
+
+.tabs-container .nav-tabs > li.active > a,
+.tabs-container .nav-tabs > li.active > a:hover,
+.tabs-container .nav-tabs > li.active > a:focus {
+  background-color: #a0a0a0;
+  border: none;
+  color: #FFFFFF;
+  border-bottom: solid 5px #0c7cd5; }
+
+.tabs-container .panel-body {
+  border: solid 1px #e1e2e3;
+  border-radius: 0; }
+
+/* --------------------------------------------------
+    BASIC COLORS
+-------------------------------------------------- */
+/* 009688 */
+/* --------------------------------------------------
+    PALETTE COLORS
+-------------------------------------------------- */
+/* 1565C0, 8bc34a, blue:2196F3 */
+.blueimp-gallery > .close {
+  background-color: #F44336;
+  text-shadow: none; }
+
+.blueimp-gallery > .description {
+  position: absolute;
+  top: 60px;
+  left: 15px;
+  margin: 0 40px 0 0;
+  font-size: 13px;
+  line-height: 20px;
+  color: #fff;
+  text-shadow: 0 0 2px #000;
+  opacity: .8; }
+
+.blueimp-gallery-controls > .description {
+  display: block; }
+
+/* --------------------------------------------------
+    BASIC COLORS
+-------------------------------------------------- */
+/* 009688 */
+/* --------------------------------------------------
+    PALETTE COLORS
+-------------------------------------------------- */
+/* 1565C0, 8bc34a, blue:2196F3 */
+.ibox-title {
+  border-width: 0; }
+
+.ibox-title > h5 {
+  color: #3a3a3a; }
+
+.ibox-title .label {
+  float: none; }
+
+.ibox-content {
+  padding: 35px 40px 40px 40px; }
+
+.ibox-tools a {
+  color: #2196F3; }
+
+/* ----- */
+.contact-box.center-version {
+  border: none; }
+
+/* --------------------------------------------------
+    BASIC COLORS
+-------------------------------------------------- */
+/* 009688 */
+/* --------------------------------------------------
+    PALETTE COLORS
+-------------------------------------------------- */
+/* 1565C0, 8bc34a, blue:2196F3 */
+/* --------------------------------------------------
+    HEADINGS
+-------------------------------------------------- */
+h1, h2, h3 {
+  color: #515253;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 40px; }
+
+h2 {
+  font-size: 2.375em; }
+
+h3 {
+  font-size: 1.5em; }
+
+h3 > small {
+  font-size: 75%; }
+
+h4 {
+  font-size: 1em;
+  font-weight: 700; }
+
+h4 > small {
+  font-size: 85%; }
+
+/* --------------------------------------------------
+    PARAGRAPH
+-------------------------------------------------- */
+p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.575em;
+  margin-bottom: 20px;
+  -webkit-font-smoothing: antialiased; }
+
+p.lead {
+  font-size: 1.375em;
+  font-weight: 300;
+  line-height: inherit;
+  margin-bottom: 40px; }
+
+/* --------------------------------------------------
+    LINKS
+-------------------------------------------------- */
+a:hover.trans-scale-sm {
+  transform: scale(1.25) rotate(-3deg);
+  transition: all 0.25s ease-in-out; }
+
+/* --------------------------------------------------
+    LISTS
+-------------------------------------------------- */
+ul.billing > li {
+  margin-bottom: 10px; }
+
+ul.billing > li > img {
+  width: 42px; }
+
+/* --------------------------------------------------
+    BASIC COLORS
+-------------------------------------------------- */
+/* 009688 */
+/* --------------------------------------------------
+    PALETTE COLORS
+-------------------------------------------------- */
+/* 1565C0, 8bc34a, blue:2196F3 */
+.btn-default {
+  background-color: #f9f9f9; }
+
+.btn-primary {
+  background-color: #2196F3;
+  border-color: #1590f2; }
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  background-color: #1590f2;
+  border-color: #0d8aee; }
+
+.btn-success {
+  background-color: #8BC34A;
+  border-color: #71a436; }
+
+.title-action > ul.list-inline {
+  margin: 0; }
+
+/* --------------------------------------------------
+    BASIC COLORS
+-------------------------------------------------- */
+/* 009688 */
+/* --------------------------------------------------
+    PALETTE COLORS
+-------------------------------------------------- */
+/* 1565C0, 8bc34a, blue:2196F3 */
+.navbar-fixed-top, .navbar-static-top {
+  background: #3a3a3a; }
+
+body.mini-navbar .nav-header {
+  background-color: #0c7cd5; }
+
+/* --------------------------------------------------
+    HAMBURGER MENU
+-------------------------------------------------- */
+.minimalize-styl-2 {
+  margin-left: 25px;
+  margin-right: 25px; }
+
+/* --------------------------------------------------
+    UPPER RIGHT NAV BOX
+-------------------------------------------------- */
+.nav-header {
+  background: url("/img/avatar/bill_murray@100x100.jpg") no-repeat;
+  background-size: cover;
+  background: none;
+  background-color: #0c7cd5;
+  background-color: #3a3a3a;
+  border-bottom: solid 5px #0a6ebd;
+  padding: 35px 25px; }
+
+.nav-header a {
+  color: #FFFFFF; }
+
+.dropdown-menu {
+  border-radius: 2px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.375); }
+
+/* --------------------------------------------------
+    TOP NAV
+-------------------------------------------------- */
+.navbar-form-custom .form-control {
+  background-color: transparent;
+  width: 300px; }
+
+.algolia-search-topnav {
+  color: #9f9f9f; }
+
+/* --------------------------------------------------
+    SIDEBAR
+-------------------------------------------------- */
+.nav > li.active {
+  border-left: 4px solid #08528d;
+  background: #0c7cd5; }
+
+.nav > li > a {
+  color: #f1f2f3; }
+
+.navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus {
+  background-color: #0c7cd5; }
+
+.nav-second-level > li > a {
+  font-weight: 400; }
+
+body:not(.fixed-sidebar):not(.canvas-menu).mini-navbar .nav li:hover > .nav-second-level,
+.mini-navbar .nav li:focus > .nav-second-level {
+  min-width: 180px; }
+
+.mini-navbar .nav-second-level {
+  background-color: #0a6ebd; }
+
+/* --------------------------------------------------
+    BASIC COLORS
+-------------------------------------------------- */
+/* 009688 */
+/* --------------------------------------------------
+    PALETTE COLORS
+-------------------------------------------------- */
+/* 1565C0, 8bc34a, blue:2196F3 */
+.etg-floret-white {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 40%; }
+
+.logo-element {
+  padding: 16px 0; }
+
+.avatar-sidemenu {
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(50%);
+  width: 75px; }
+
+.logo-supplier-profile {
+  margin: auto auto 10px auto;
+  width: 80%; }
+
+/*# sourceMappingURL=etg.css.map */

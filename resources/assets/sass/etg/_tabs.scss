@@ -1,0 +1,51 @@
+@import "variables";
+
+.tabs-container .nav-tabs {
+  background-color: lighten($gray-dark, 65%);
+  border-bottom: none;
+}
+
+.tabs-container .nav-tabs > li {
+  margin-bottom: 0;
+}
+
+.tabs-container .nav > li.active {
+  border-left: 0;
+}
+
+.tabs-container .nav-tabs > li > a {
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  color: lighten($gray-dark, 20%);
+  font-size: 0.875em;
+  padding: 15px 20px;
+  margin: 0;
+}
+
+.tabs-container .nav-tabs > li > a,
+.tabs-container .nav-tabs > li > a:active,
+.tabs-container .nav-tabs > li > a:hover,
+.tabs-container .nav-tabs > li > a:focus {
+  border-bottom: solid 5px lighten($gray-dark, 50%);
+}
+
+.tabs-container .nav-tabs > li > a:active,
+.tabs-container .nav-tabs > li > a:hover {
+  border-bottom: solid 5px darken($blue, 10%);
+}
+
+.tabs-container .nav-tabs > li.active > a,
+.tabs-container .nav-tabs > li.active > a:hover,
+.tabs-container .nav-tabs > li.active > a:focus {
+  background-color: lighten($gray-dark, 40%);
+  border: none;
+  color: #FFFFFF;
+  border-bottom: solid 5px darken($blue, 10%);
+}
+
+
+.tabs-container .panel-body {
+  border: solid 1px #e1e2e3;
+  border-radius: 0;
+}

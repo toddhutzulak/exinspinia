@@ -1,0 +1,22 @@
+@import "variables";
+
+.blueimp-gallery > .close {
+  background-color: $red;
+  text-shadow: none;
+}
+
+.blueimp-gallery > .description {
+  position: absolute;
+  top: 60px;
+  left: 15px;
+  margin: 0 40px 0 0;
+  font-size: 13px;
+  line-height: 20px;
+  color: #fff;
+  text-shadow: 0 0 2px #000;
+  opacity: .8;
+}
+
+.blueimp-gallery-controls > .description {
+  display: block;
+}

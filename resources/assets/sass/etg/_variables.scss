@@ -1,0 +1,36 @@
+
+/* --------------------------------------------------
+    BASIC COLORS
+-------------------------------------------------- */
+
+$red: #F44336;
+$pink: #e91e63;
+$orange: #ff9800;
+$yellow: #ffeb3b;
+$green: #8BC34A;
+$lime: #cddc39;
+$blue: #2196F3;
+$indigo: #3f51b5;
+$violet: #9c27b0;
+$teal: #00897b; /* 009688 */
+
+$gray-dark: #3a3a3a;
+$gray-lighter: lighten($gray-dark, 75%);
+
+/* --------------------------------------------------
+    PALETTE COLORS
+-------------------------------------------------- */
+
+$color-primary: $gray-dark; /* 1565C0, 8bc34a, blue:2196F3 */
+$color-secondary: $blue;
+$color-tertiary: #4051b5;
+$color-quattro: $blue;
+
+
+$accent-color: #007B85;
+
+$navy: #007B85;
+
+$btn-border-radius: 2px;
+
+

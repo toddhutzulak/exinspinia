@@ -1,0 +1,21 @@
+@import "variables";
+
+.etg-floret-white {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 40%;
+}
+
+.logo-element {
+  padding: 16px 0;
+}
+
+.avatar-sidemenu {
+  @include filter(grayscale(50%));
+  width: 75px;
+}
+
+.logo-supplier-profile {
+  margin: auto auto 10px auto;
+  width: 80%;
+}

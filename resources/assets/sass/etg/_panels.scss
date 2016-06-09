@@ -1,0 +1,14 @@
+@import "variables";
+
+.panel-warning > .panel-heading {
+  background-color: $orange;
+  border-color: darken($orange, 2.5%);
+  color: #FFFFFF;
+  font-size: 0.875em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.panel-body > p {
+  margin-bottom: 0;
+}
