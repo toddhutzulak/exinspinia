@@ -262,7 +262,8 @@ body {
 
 .tabs-container .nav-tabs > li > a:active,
 .tabs-container .nav-tabs > li > a:hover {
-  border-bottom: solid 5px #0c7cd5; }
+  border-bottom: solid 5px #0c7cd5;
+  transition: border-color 0.5s linear; }
 
 .tabs-container .nav-tabs > li.active > a,
 .tabs-container .nav-tabs > li.active > a:hover,

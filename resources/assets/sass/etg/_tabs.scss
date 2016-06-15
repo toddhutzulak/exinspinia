@@ -33,6 +33,7 @@
 .tabs-container .nav-tabs > li > a:active,
 .tabs-container .nav-tabs > li > a:hover {
   border-bottom: solid 5px darken($blue, 10%);
+  @include transition(border-color .5s linear);
 }
 
 .tabs-container .nav-tabs > li.active > a,

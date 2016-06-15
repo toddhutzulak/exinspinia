@@ -4,15 +4,15 @@
             <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
         </div>
         <ul class="nav navbar-top-links navbar-right" style="line-height: 1;">
-            <li class="dropdown">
-                <form role="search" class="navbar-form-custom" method="post" action="#">
-                    <div class="form-group">
-                        <div class="input-group">
-                            <div class="input-group-addon" style="background-color: transparent; border: none; cursor: default; padding: 0 10px;"><i class="fa fa-search fa-lg"></i></div>
-                            <input class="form-control white" type="text" placeholder="Looking for something?" name="top-search" id="top-search">
-                        </div>
+            <form role="search" class="navbar-form-custom" method="post" action="#">
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon" style="background-color: transparent; border: none; cursor: default; padding: 0 10px;"><i class="fa fa-search fa-lg"></i></div>
+                        <input class="form-control white" type="text" placeholder="Looking for something?" name="top-search" id="top-search">
                     </div>
-                </form>
+                </div>
+            </form>
+            <li class="dropdown">
                 <a class="dropdown-toggle count-info white trans-scale-sm" data-toggle="dropdown" href="#">
                     <i class="fa fa-envelope"></i>  <span class="label label-success">12</span>
                 </a>

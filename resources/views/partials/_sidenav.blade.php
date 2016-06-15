@@ -33,7 +33,7 @@ $randomGreeting = array($lang_de, $lang_en, $lang_es, $lang_fr, $lang_hi, $lang_
                 <div class="dropdown profile-element">
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                         <span class="clear">
-                            {!! Html::image('/img/avatar/bill_murray@200x200.jpg', 'Profile Avatar', array('class' => 'img-circle avatar-sidemenu')) !!}
+                            {!! Html::image('/img/avatar/bill_murray@100x100.jpg', 'Profile Avatar', array('class' => 'img-circle avatar-sidemenu')) !!}
                         </span>
                         <span class="clear">
                             <span class="block m-t-xs"> <strong class="font-bold">{{ $randomGreeting[array_rand($randomGreeting)] }} Bill!</strong> &nbsp;<i class="fa fa-caret-down fa-lg"></i></span>
