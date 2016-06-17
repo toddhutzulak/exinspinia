@@ -1,0 +1,14 @@
+@import "variables";
+
+.supplier-search {
+  background-color: $white;
+  border: none;
+  font-size: 0.9em;
+  font-weight: 600;
+  padding-right: 5px;
+  padding-left: 0;
+}
+
+.supplier-search--input {
+  background-color: #f8f8f8;
+}

@@ -1,5 +1,5 @@
 <div class="row wrapper page-heading">
-    <div class="col-lg-8">
+    <div class="col-lg-6">
         <!-- <h2 class="white">@yield('supplierName')</h2> -->
         <ol class="breadcrumb">
             <li class="text-muted"><a href="index.html">Home</a></li>
@@ -8,7 +8,7 @@
             <li class="active"><strong>@yield('pageTitle')</strong></li>
         </ol>
     </div>
-    <div class="col-lg-4">
+    <div class="col-lg-6">
         <div class="title-action">
             <ul class="list-inline">
                 @yield('productActions')

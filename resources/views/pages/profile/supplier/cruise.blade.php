@@ -5,8 +5,6 @@
 @section('pageTitle', 'Norwegian Cruise Line')
 @section('supplierName', 'Norwegian Cruise Line')
 
-
-
 @section('stylesheets')
     <link href="/css/plugins/footable/footable.core.css" rel="stylesheet">
 @endsection
@@ -90,10 +88,10 @@
                         <div class="ibox float-e-margins">
                             <div class="ibox-content">
                                 <div class="input-group" style="margin-bottom: 40px;">
-                                    <input type="text" class="form-control" id="shipFilter" placeholder="Start typing to search @yield('supplierName') ships &hellip;">
-                                    <span class="input-group-btn">
-                                        <button class="btn button-primary">Search</button>
+                                    <span class="input-group-addon supplier-search">
+                                        Search @yield('supplierName') Ships &nbsp;<i class="fa fa-caret-right fa-lg"></i>
                                     </span>
+                                    <input type="text" class="form-control supplier-search--input" id="shipFilter" placeholder="Start typing to search&hellip;">
                                 </div>
 
                                 <table class="footable table table-stripped" data-page-size="2" data-filter=#shipFilter>
@@ -107,42 +105,42 @@
                                     <tbody>
                                     <tr>
                                         <td>
-                                            {!! Html::image('/img/supplier/cruise/ncl/escape.jp', 'Ship Name', array('class' => 'img-responsive')) !!}
+                                            {!! Html::image('/img/supplier/cruise/ncl/escape.jpg', 'Ship Name', array('class' => 'img-responsive')) !!}
                                         </td>
                                         <td>Norwegian Escape</td>
                                         <td><p data-holder-ipsum-mode="paragraphs" data-holder-ipsum-paragraphs-count="1"></p></td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            {!! Html::image('/img/supplier/cruise/ncl/breakaway.jp', 'Ship Name', array('class' => 'img-responsive')) !!}
+                                            {!! Html::image('/img/supplier/cruise/ncl/breakaway.jpg', 'Ship Name', array('class' => 'img-responsive')) !!}
                                         </td>
                                         <td>Norwegian Breakaway</td>
                                         <td><p data-holder-ipsum-mode="paragraphs" data-holder-ipsum-paragraphs-count="1"></p></td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            {!! Html::image('/img/supplier/cruise/ncl/jade.jp', 'Ship Name', array('class' => 'img-responsive')) !!}
+                                            {!! Html::image('/img/supplier/cruise/ncl/jade.jpg', 'Ship Name', array('class' => 'img-responsive')) !!}
                                         </td>
                                         <td>Norwegian Jade</td>
                                         <td><p data-holder-ipsum-mode="paragraphs" data-holder-ipsum-paragraphs-count="1"></p></td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            {!! Html::image('/img/supplier/cruise/ncl/getaway.jp', 'Ship Name', array('class' => 'img-responsive')) !!}
+                                            {!! Html::image('/img/supplier/cruise/ncl/getaway.jpg', 'Ship Name', array('class' => 'img-responsive')) !!}
                                         </td>
                                         <td>Norwegian Getaway</td>
                                         <td><p data-holder-ipsum-mode="paragraphs" data-holder-ipsum-paragraphs-count="1"></p></td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            {!! Html::image('/img/supplier/cruise/ncl/gem.jp', 'Ship Name', array('class' => 'img-responsive')) !!}
+                                            {!! Html::image('/img/supplier/cruise/ncl/gem.jpg', 'Ship Name', array('class' => 'img-responsive')) !!}
                                         </td>
                                         <td>Norwegian Gem</td>
                                         <td><p data-holder-ipsum-mode="paragraphs" data-holder-ipsum-paragraphs-count="1"></p></td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            {!! Html::image('/img/supplier/cruise/ncl/epic.jp', 'Ship Name', array('class' => 'img-responsive')) !!}
+                                            {!! Html::image('/img/supplier/cruise/ncl/epic.jpg', 'Ship Name', array('class' => 'img-responsive')) !!}
                                         </td>
                                         <td>Norwegian Epic</td>
                                         <td><p data-holder-ipsum-mode="paragraphs" data-holder-ipsum-paragraphs-count="1"></p></td>
@@ -170,17 +168,21 @@
                 </div>
                 <div class="tabs-container">
                     <!-- Nav tabs -->
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li class="active" role="presentation"><a href="#tabItinerary" aria-controls="tabItinerary" role="tab" data-toggle="tab">Contact</a></li>
-                        <li class="" role="presentation"><a href="#tabCommission" aria-controls="tabCommission" role="tab" data-toggle="tab">Hours</a></li>
-                        <li class="" role="presentation"><a href="#tabContact" aria-controls="tabContact" role="tab" data-toggle="tab">Payment</a></li>
+                    <ul class="nav nav-tabs nav-tabs-sidebar" role="tablist">
+                        <li class="active" role="presentation"><a class="" href="#tabItinerary" aria-controls="tabItinerary" role="tab" data-toggle="tab"><i class="fa fa-user fa-lg"></i></a></li>
+                        <li class="" role="presentation"><a class="" href="#tabLinks" aria-controls="tabLinks" role="tab" data-toggle="tab"><i class="fa fa-external-link fa-lg"></i></a></li>
+                        <li class="" role="presentation"><a class="" href="#tabCommission" aria-controls="tabCommission" role="tab" data-toggle="tab"><i class="fa fa-clock-o fa-lg"></i></a></li>
+                        <li class="" role="presentation"><a class="" href="#tabContact" aria-controls="tabContact" role="tab" data-toggle="tab"><i class="fa fa-credit-card fa-lg"></i></a></li>
                     </ul>
                     <!-- Tab panes -->
                     <div class="tab-content">
                         <div role="tabpanel" id="tabItinerary" class="tab-pane fade in active">
                             <div class="panel-body">
                                 @include('partials.content_blocks._profile-sidebar')
-                                <hr>
+                            </div>
+                        </div>
+                        <div role="tabpanel" id="tabLinks" class="tab-pane fade">
+                            <div class="panel-body">
                                 @include('partials.content_blocks._links')
                             </div>
                         </div>

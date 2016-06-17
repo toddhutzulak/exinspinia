@@ -1,31 +1,21 @@
 <?php
-$lang_de = "Guten tag";         // German
-$lang_en = "Hi";                // English
-$lang_es = "Hola";              // Spanish
-$lang_fr = "Bonjour";           // French
-$lang_hi = "Namaste";           // Hindi
-$lang_it = "Buon giorno";       // Italian
-$lang_jp = "こんにちは";         // Japanese
-$lang_km = "Chum reap suor";    // Cambodian
-$lang_lv = "Sveika";            // Latvian
-$lang_nl = "Goedendag";         // Dutch
-$lang_pt = "Ol&aacute;";        // Portugese
-$lang_ru = "Iszdravstvuyte";    // Russian
-$lang_sq = "Tungjatjeta";       // Albanian
-$lang_yi = "Sholem aleikhem";   // Yiddish
-$randomGreeting = array($lang_de, $lang_en, $lang_es, $lang_fr, $lang_hi, $lang_it, $lang_jp, $lang_km, $lang_lv, $lang_nl, $lang_pt, $lang_ru, $lang_sq, $lang_yi);
+    $lang_de = "Guten tag";         // German
+    $lang_en = "Hi";                // English
+    $lang_es = "Hola";              // Spanish
+    $lang_fr = "Bonjour";           // French
+    $lang_hi = "Namaste";           // Hindi
+    $lang_it = "Buon giorno";       // Italian
+    $lang_jp = "こんにちは";         // Japanese
+    $lang_km = "Chum reap suor";    // Cambodian
+    $lang_lv = "Sveika";            // Latvian
+    $lang_nl = "Goedendag";         // Dutch
+    $lang_pt = "Ol&aacute;";        // Portugese
+    $lang_ru = "Iszdravstvuyte";    // Russian
+    $lang_sq = "Tungjatjeta";       // Albanian
+    $lang_yi = "Sholem aleikhem";   // Yiddish
+    $randomGreeting = array($lang_de, $lang_en, $lang_es, $lang_fr, $lang_hi, $lang_it, $lang_jp, $lang_km, $lang_lv, $lang_nl, $lang_pt, $lang_ru, $lang_sq, $lang_yi);
 ?>
 
-<style type="text/css">
-
-    #canvas {
-        position: fixed;
-        z-index: -1;
-        top: 0;
-        left: 0;
-    }
-
-</style>
 <nav class="navbar-default navbar-static-side" role="navigation">
     <div class="sidebar-collapse">
         <ul class="nav metismenu" id="side-menu">
@@ -40,19 +30,16 @@ $randomGreeting = array($lang_de, $lang_en, $lang_es, $lang_fr, $lang_hi, $lang_
                         </span>
                     </a>
                     <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                        <li><a href="/profile/agent/bill-murray">My Profile</a></li>
+                        <li>{!! Html::link('/profile/agent/bill-murray', 'My Profile') !!}</li>
                         <li><a href="#">Admin</a></li>
                         <li><a href="#">Trips</a></li>
                         <li><a href="#">Clients</a></li>
                         <li><a href="#">Favorites</a></li>
-                        <!--
-                        <li><a href="#">Messages <span class="label label-danger pull-right" style="margin-top:5px;">12</span></a></li>
-                        -->
                         <li><a href="#">Help</a></li>
                     </ul>
                 </div>
                 <div class="logo-element">
-                    {!! Html::image('/img/etg-floret-white.png', '', array('class' => 'img-responsive etg-floret-white')) !!}
+                    {!! Html::image('/img/etg-floret-white.png', 'Ensemble Travel Group Extranet', array('class' => 'img-responsive etg-floret-white')) !!}
                 </div>
             </li>
             <li class="">
@@ -63,9 +50,9 @@ $randomGreeting = array($lang_de, $lang_en, $lang_es, $lang_fr, $lang_hi, $lang_
                 <ul class="nav nav-second-level collapse">
                     <li><a href="#"><i class="fa fa-ship"></i> Cruise</a></li>
                     <li><a href="#"><i class="fa fa-bus"></i> Land</a></li>
-                    <li><a href="#"><i class="fa fa-hotel"></i> Hotel</a></li>
+                    <li><a href="/hotels"><i class="fa fa-hotel"></i> Hotels</a></li>
                     <li><a href="#"><i class="fa fa-plane"></i> Air</a></li>
-                    <li><a href="#"><i class="fa fa-fire" style="color: #F44336;"></i> Offers</a></li>
+                    <li><a href="/offers"><i class="fa fa-fire" style="color: #F44336;"></i> Offers</a></li>
                     <li><a href="#"><i class="fa fa-th-list"></i>Suppliers</a></li>
                     <li><a href="#"><i class="fa fa-child"></i> FAMs</a></li>
                 </ul>
@@ -138,10 +125,8 @@ $randomGreeting = array($lang_de, $lang_en, $lang_es, $lang_fr, $lang_hi, $lang_
                     <li>{!! Html::link('/product/cruise/itinerary', 'Cruise Itinerary') !!}</li>
                     <li>{!! Html::link('/profile/supplier/hotel', 'Hotel Supplier') !!}</li>
                     <li>{!! Html::link('/product/hotel/listing', 'Hotel Listing') !!}</li>
-
                 </ul>
             </li>
         </ul>
-
     </div>
 </nav>

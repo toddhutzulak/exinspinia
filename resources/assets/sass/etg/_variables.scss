@@ -16,6 +16,7 @@ $teal: #00897b; /* 009688 */
 
 $gray-dark: #3a3a3a;
 $gray-lighter: lighten($gray-dark, 75%);
+$white: #ffffff;
 
 /* --------------------------------------------------
     PALETTE COLORS
@@ -23,7 +24,8 @@ $gray-lighter: lighten($gray-dark, 75%);
 
 $color-primary: $gray-dark; /* 1565C0, 8bc34a, blue:2196F3 */
 $color-secondary: $blue;
-$color-tertiary: #4051b5;
+$color-tertiary: lighten($gray-dark, 45%);
+
 $color-quattro: $blue;
 
 

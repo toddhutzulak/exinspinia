@@ -81,8 +81,17 @@ body {
     PALETTE COLORS
 -------------------------------------------------- */
 /* 1565C0, 8bc34a, blue:2196F3 */
+.color-primary {
+  color: #3a3a3a; }
+
+.color-secondary {
+  color: #2196F3; }
+
+.color-tertiary {
+  color: #adadad; }
+
 .white {
-  color: #FFFFFF !important; }
+  color: #ffffff !important; }
 
 .red {
   color: #F44336 !important; }
@@ -105,6 +114,15 @@ body {
 /* --------------------------------------------------
     BACKGROUND COLORS
 -------------------------------------------------- */
+.bg-primary {
+  background-color: #3a3a3a; }
+
+.bg-secondary {
+  background-color: #2196F3; }
+
+.bg-tertiary {
+  background-color: #adadad; }
+
 .bg-red {
   background-color: #F44336; }
 
@@ -235,8 +253,27 @@ body {
     PALETTE COLORS
 -------------------------------------------------- */
 /* 1565C0, 8bc34a, blue:2196F3 */
+.supplier-search {
+  background-color: #ffffff;
+  border: none;
+  font-size: 0.9em;
+  font-weight: 600;
+  padding-right: 5px;
+  padding-left: 0; }
+
+.supplier-search--input {
+  background-color: #f8f8f8; }
+
+/* --------------------------------------------------
+    BASIC COLORS
+-------------------------------------------------- */
+/* 009688 */
+/* --------------------------------------------------
+    PALETTE COLORS
+-------------------------------------------------- */
+/* 1565C0, 8bc34a, blue:2196F3 */
 .tabs-container .nav-tabs {
-  background-color: #e0e0e0;
+  background-color: #c6c6c6;
   border-bottom: none; }
 
 .tabs-container .nav-tabs > li {
@@ -246,36 +283,44 @@ body {
   border-left: 0; }
 
 .tabs-container .nav-tabs > li > a {
-  background-color: transparent;
+  background-color: #c6c6c6;
   border-radius: 0;
   border: none;
-  color: #6d6d6d;
+  color: #ffffff;
   font-size: 0.875em;
-  padding: 15px 20px;
+  padding: 10px 15px;
   margin: 0; }
+
+.tabs-container .nav-tabs > li > a.tabs-sidebar > i {
+  margin-right: 0; }
 
 .tabs-container .nav-tabs > li > a,
 .tabs-container .nav-tabs > li > a:active,
 .tabs-container .nav-tabs > li > a:hover,
 .tabs-container .nav-tabs > li > a:focus {
-  border-bottom: solid 5px #bababa; }
+  border-bottom: solid 3px #c6c6c6; }
 
 .tabs-container .nav-tabs > li > a:active,
 .tabs-container .nav-tabs > li > a:hover {
-  border-bottom: solid 5px #0c7cd5;
+  border-bottom: solid 3px #939393;
   transition: border-color 0.5s linear; }
 
-.tabs-container .nav-tabs > li.active > a,
+.tabs-container .nav-tabs > li > a:hover {
+  background-color: #adadad;
+  transition: background-color 0.25s linear; }
+
+.tabs-container .nav-tabs > li.active > n a,
 .tabs-container .nav-tabs > li.active > a:hover,
 .tabs-container .nav-tabs > li.active > a:focus {
   background-color: #a0a0a0;
+  background-color: #adadad;
   border: none;
   color: #FFFFFF;
-  border-bottom: solid 5px #0c7cd5; }
+  border-bottom: solid 3px #939393; }
 
 .tabs-container .panel-body {
-  border: solid 1px #e1e2e3;
-  border-radius: 0; }
+  border: none;
+  border-radius: 2px; }
 
 /* --------------------------------------------------
     BASIC COLORS

@@ -1,7 +1,19 @@
 @import "variables";
 
+.color-primary {
+  color: $color-primary;
+}
+
+.color-secondary {
+  color: $color-secondary;
+}
+
+.color-tertiary {
+  color: $color-tertiary;
+}
+
 .white {
-  color: #FFFFFF !important;
+  color: $white !important;
 }
 
 .red {
@@ -31,6 +43,18 @@
 /* --------------------------------------------------
     BACKGROUND COLORS
 -------------------------------------------------- */
+
+.bg-primary {
+  background-color: $color-primary;
+}
+
+.bg-secondary {
+  background-color: $color-secondary;
+}
+
+.bg-tertiary {
+  background-color: $color-tertiary;
+}
 
 .bg-red {
   background-color: $red;

@@ -195,17 +195,41 @@
             </div>
 
             <div class="col-md-3">
-                <div class="ibox-content">
-                    {!! Html::image('/img/logo/supplier/andaz.png', 'Andaz Logo', array('class'=>'img-responsive logo-supplier-profile')) !!}
-                    <div style="text-align: center;">
-                        <hr>
-                        @include('partials.content_blocks._profile-sidebar')
-                        <hr>
-                        @include('partials.content_blocks._links')
-                        <hr>
-                        @include('partials.content_blocks._hours')
-                        <hr>
-                        @include('partials.content_blocks._billing')
+                <div class="ibox">
+                    <div class="ibox-content">
+                        {!! Html::image('/img/logo/supplier/andaz.png', 'Supplier Logo', array('class'=>'img-responsive')) !!}
+                    </div>
+                </div>
+                <div class="tabs-container">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs nav-tabs-sidebar" role="tablist">
+                        <li class="active" role="presentation"><a class="" href="#tabItinerary" aria-controls="tabItinerary" role="tab" data-toggle="tab"><i class="fa fa-user fa-lg"></i></a></li>
+                        <li class="" role="presentation"><a class="" href="#tabLinks" aria-controls="tabLinks" role="tab" data-toggle="tab"><i class="fa fa-external-link fa-lg"></i></a></li>
+                        <li class="" role="presentation"><a class="" href="#tabCommission" aria-controls="tabCommission" role="tab" data-toggle="tab"><i class="fa fa-clock-o fa-lg"></i></a></li>
+                        <li class="" role="presentation"><a class="" href="#tabContact" aria-controls="tabContact" role="tab" data-toggle="tab"><i class="fa fa-credit-card fa-lg"></i></a></li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" id="tabItinerary" class="tab-pane fade in active">
+                            <div class="panel-body">
+                                @include('partials.content_blocks._profile-sidebar')
+                            </div>
+                        </div>
+                        <div role="tabpanel" id="tabLinks" class="tab-pane fade">
+                            <div class="panel-body">
+                                @include('partials.content_blocks._links')
+                            </div>
+                        </div>
+                        <div role="tabpanel" id="tabCommission" class="tab-pane fade">
+                            <div class="panel-body">
+                                @include('partials.content_blocks._hours')
+                            </div>
+                        </div>
+                        <div role="tabpanel" id="tabContact" class="tab-pane fade">
+                            <div class="panel-body">
+                                @include('partials.content_blocks._billing')
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 <div class="row">
     <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
         <div class="navbar-header">
-            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars" style="margin-right: 0;"></i> </a>
         </div>
         <ul class="nav navbar-top-links navbar-right" style="line-height: 1;">
             <form role="search" class="navbar-form-custom" method="post" action="#">
